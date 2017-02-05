@@ -1,0 +1,43 @@
+
+/* Element selectors */
+
+base,
+datalist,
+head,
+link,
+menuitem,
+meta,
+nextid,
+param,
+script,
+source,
+style,
+template,
+title,
+track {
+  display: none;
+}
+
+/* Attribute selectors */
+
+[hidden],
+input[type=hidden] {
+  display: none;
+}
+
+/* Class selectors */
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+/* Complex selectors */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
