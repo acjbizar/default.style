@@ -18,6 +18,12 @@ var {
   font-style: italic;
 }
 
+code,
+pre,
+samp {
+  font-family: monospace, sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -25,6 +31,12 @@ h4,
 h5,
 h6 {
   font-family: sans-serif, serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 1em 0;
 }
 
 html {
