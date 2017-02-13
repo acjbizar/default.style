@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:acj/default.style.git"
+    "url": "git+https://github.com/acjbizar/default.style.git"
   },
   "keywords": [
     "css",
@@ -27,7 +27,7 @@
   "author": "ACJ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acjbizar/grid.sexy/issues"
+    "url": "https://github.com/acjbizar/default.style/issues"
   },
   "homepage": "https://default.style/"
 }
