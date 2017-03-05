@@ -1,6 +1,9 @@
 
 * {
+  font-family: inherit;
   font-size: 1em;
+  font-style: inherit;
+  font-weight: inherit;
 }
 
 /* Element selectors */
@@ -21,7 +24,7 @@ var {
 code,
 pre,
 samp {
-  font-family: monospace, sans-serif;
+  font-family: monospace, sans-serif, serif;
 }
 
 h1,
@@ -31,6 +34,12 @@ h4,
 h5,
 h6 {
   font-family: sans-serif, serif;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 0 .5em 0;
 }
 
 h2 {
@@ -43,6 +52,10 @@ h3 {
   font-size: 1.5em;
   line-height: 1;
   margin: 1em 0;
+}
+
+h4 {
+  margin: 1.5em 0 0 0;
 }
 
 html {
