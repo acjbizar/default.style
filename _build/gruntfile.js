@@ -33,6 +33,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('build', ['sass']);
+    grunt.registerTask('build', ['sass', 'concat']);
     grunt.registerTask('default', ['sass']);
 };
