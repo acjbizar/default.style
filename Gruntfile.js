@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    '../css/main.min.css': '../sass/index.scss'
+                    'www/css/main.min.css': 'www/sass/index.scss'
                 }
             }
         },
@@ -18,13 +18,13 @@ module.exports = function(grunt) {
                 separator: ''
             },
             dist: {
-                src: ['../css/intro.css', '../css/main.min.css'],
-                dest: '../index.css'
+                src: ['www/css/intro.css', 'www/css/main.min.css'],
+                dest: 'www/index.css'
             }
         },
         watch: {
             css: {
-                files: ['../sass/**/*.scss'],
+                files: ['www/sass/**/*.scss'],
                 tasks: ["sass", "concat"]
             }
         }
