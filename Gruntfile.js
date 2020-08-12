@@ -1,9 +1,12 @@
+const sass = require('node-sass')
+
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         sass: {
             src: {
                 options: {
+                    implementation: sass,
                     noCache: true,
                     sourceMap: false,
                     outputStyle: 'compressed'
