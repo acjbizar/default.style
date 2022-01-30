@@ -11,9 +11,14 @@ module.exports = function(grunt) {
                     sourceMap: false,
                     outputStyle: 'compressed'
                 },
-                files: {
-                    'www/css/main.min.css': 'www/sass/index.scss'
-                }
+                files: [
+                    {
+                        'www/css/main.min.css': 'www/sass/index.scss'
+                    },
+                    {
+                        'www/css/meta.min.css': 'www/sass/meta.scss'
+                    }
+                ]
             }
         },
         concat: {

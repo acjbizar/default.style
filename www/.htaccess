@@ -15,6 +15,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 Header add Access-Control-Allow-Origin "*"
 Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
 Header set X-UA-Compatible "IE=Edge"
+Header add Link "<css/meta.min.css>;rel=stylesheet;media=all"
 <filesMatch ".(gif|png|jpg|jpeg|ico|pdf|txt)$">
 Header set Cache-Control "max-age=2592000"
 </filesMatch>
