@@ -1,6 +1,6 @@
 {
   "name": "default.style",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Default style sheet.",
   "main": "gruntfile.js",
   "devDependencies": {
@@ -10,7 +10,7 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
     "grunt-sftp-deploy": "^0.2.5",
-    "node-sass": "^4.14.1"
+    "sass": "^1.49.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
