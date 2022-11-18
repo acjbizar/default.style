@@ -15,4 +15,4 @@ Put this in the ``head`` of your document:
 <link href="//default.style" rel="stylesheet">
 ```
 
-No, seriously: That is it. <small>(Yes,  the domain is stylesheet.)</small>
+No, seriously: That is it.
