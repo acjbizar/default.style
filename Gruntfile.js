@@ -13,10 +13,10 @@ module.exports = function(grunt) {
                 },
                 files: [
                     {
-                        'www/css/main.min.css': 'www/sass/index.scss'
+                        'www/css/main.min.css': 'src/sass/index.scss'
                     },
                     {
-                        'www/css/meta.min.css': 'www/sass/meta.scss'
+                        'www/css/meta.min.css': 'src/sass/meta.scss'
                     }
                 ]
             }
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         },
         watch: {
             css: {
-                files: ['www/sass/**/*.scss'],
+                files: ['src/sass/**/*.scss'],
                 tasks: ["sass", "concat"]
             }
         }
